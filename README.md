@@ -12,6 +12,11 @@
 
 ```
 sudo -H pip3 install gym
+
+or 
+
+pip3 install wheel
+pip3 install gym
 ```
 
 ​	ココらへんは複雑で，基本的には，pipのバージョンは３．７となっているがanacondaやminicondaでバージ	ョン管理していると明示的にバージョンを指定しないといけないことがある．
