@@ -219,6 +219,13 @@ sudo -H pip3 install -r requirements.txt
 ```
 
 [このページ](https://stackoverflow.com/questions/51041109/numpy-1-11-doesnt-install-in-virtualenv-ubuntu-studio)を見ましょう．
+要は，下記のコマンドを打ちましょう．
+
+```sh
+sudo ln -s /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h /usr/include/xlocale.h
+```
+
+インストールには５分位かかるので，長くても焦ってはいけません．
 
 2. Check
 
